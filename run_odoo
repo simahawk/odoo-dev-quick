@@ -1,0 +1,2 @@
+#!/bin/bash
+ODOO_TEST_ENABLE=1 odoo -c odoo.cfg "$@"

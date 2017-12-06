@@ -1,0 +1,16 @@
+# get latest pip
+git+https://github.com/pypa/pip.git#egg=pip
+
+# install odoo
+-r /home/sorsi/dev/sources/odoo11/requirements.txt
+-e /home/sorsi/dev/sources/odoo11
+
+setuptools-odoo
+odoo-autodiscover
+
+# tests
+git+https://github.com/camptocamp/pytest-odoo.git
+
+# dev 
+pdbpp
+

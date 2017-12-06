@@ -1,0 +1,3 @@
+#!/bin/bash
+export OPENERP_SERVER=pytest.cfg
+ODOO_TEST_ENABLE=1 pytest -s "$@"
