@@ -2,8 +2,8 @@
 git+https://github.com/pypa/pip.git#egg=pip
 
 # install odoo
--r /home/sorsi/dev/sources/odoo11/requirements.txt
--e /home/sorsi/dev/sources/odoo11
+-r ./odoo_src/requirements.txt
+-e ./odoo_src
 
 setuptools-odoo
 odoo-autodiscover
